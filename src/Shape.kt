@@ -129,6 +129,7 @@ open class Shape {
 
         //overriding setDimensions method
         override fun setDimensions() {
+
             //asking and reading only one side's value
             println("Enter The Side of Equilateral Triangle : ")
             a = readLine()?.toDouble() ?: 0.0
