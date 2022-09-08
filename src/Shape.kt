@@ -132,7 +132,7 @@ open class Shape {
 
             //asking and reading only one side's value
             println("Enter The Side of Equilateral Triangle : ")
-            a = readLine()?.toDouble() ?: 0.0
+            a = readLine()?.toDouble() ?: 0.1
             //assigning value of a to b and c
             b = a
             c = a
